@@ -1,0 +1,156 @@
+body{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+/*////////nav parte de arriba/*/
+nav ul{
+    position: fixed;
+    z-index: 500;
+    padding: 0px;
+    margin: 0px;
+    padding: 20px 0px 20px;
+    font-size: 15px;
+    justify-content:space-evenly;
+    display: flex;
+    background-color:rgb(25, 170, 175);
+    width: 100%;
+}
+nav li{
+    margin-left: -20px;
+    display: flex;
+}
+/*///////parte del medio donde dice mi primera pagina web//*/
+section h1{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+    margin-left: 10px;
+}
+h1{
+    width: 100%;
+    z-index: 2;
+}
+.imagen{
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    object-fit:cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+/*////////despues del la primera imagen*/
+article{
+    display: flex;
+    position: relative;
+    top: 400px;
+    z-index: 20;
+    height: 200vh;
+    flex-direction:column;
+    width: 100%;
+}
+article div{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+article div img{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+article h2{
+    background-color:rgb(170, 29, 29);
+    margin: 0px;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.html5{
+    margin-top: -1px;
+    background-color: rgb(26, 23, 23);
+}
+.css{
+    color: black;
+    background-color: darkgray;
+}
+.javascript{
+    background-color: rgb(26, 23, 23);
+}
+.javascript img{
+    margin-top: 5px;
+}
+/*///////////footer - parte de abajo de la pagina //////*/
+
+footer {
+    display: flex;
+    position: relative;
+    background-color: black;
+    z-index: 30;
+    justify-content: center;
+}
+footer small{
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    color: white;
+    align-items: flex-end;
+}
+/* parte de escritorio*/
+
+@media (min-width: 500px) {
+    /*primer texto//////////*/
+    section h1{
+        display: flex;
+        height: 100vh;
+    }
+    .imagen{
+        height: 100vh;
+    }
+    /*texto del medio/////*/
+    article{
+        position: relative;
+        top: 650px;
+        height: 150vh;
+    }
+    article div{
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        justify-content: space-around;
+    }
+    .html5 p{
+        width: 500px;
+    }
+    .css p{
+        display: flex;
+        width: 500px;
+    }
+    .css{
+        flex-direction: row-reverse;
+    }
+    .javascript p{
+        width: 500px;
+    }
+    /*////footer parte de abajo//*/
+    footer {
+        height: 25vh;
+        align-items: flex-end;
+    }
+    footer small{
+        font-size: 15px;
+    }
+}
+
+/*/////fin jaja///*/
+
+/*11/08/2022*/
