@@ -38,7 +38,7 @@ h1{
     top: 40px;
     object-fit:cover;
     width: 100%;
-    height: 60%;
+    height: 100%;
     display: flex;
 }
 /*////////despues del la primera imagen*/
@@ -147,8 +147,8 @@ footer small{
         font-size: 15px;
     }
 }
-/*//////parte de tablet 850px//*/
-@media (max-width: 950px){
+/*//////parte de tablet 1100px//*/
+@media (max-width: 1100px){
     section h1{
         height: 50vh;
     }
