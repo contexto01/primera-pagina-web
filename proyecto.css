@@ -119,7 +119,6 @@ footer small{
     article{
         position: relative;
         top: 650px;
-        height: 150vh;
     }
     article div{
         display: flex;
@@ -147,6 +146,15 @@ footer small{
     }
     footer small{
         font-size: 15px;
+    }
+}
+/*//////parte de tablet 850px//*/
+@media (max-width: 900px){
+    section h1{
+        height: 50vh;
+    }
+    .imagen {
+        height: 70vh;
     }
 }
 
