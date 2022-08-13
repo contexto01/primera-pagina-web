@@ -14,10 +14,21 @@ nav ul{
     display: flex;
     background-color:rgb(25, 170, 175);
     width: 100%;
+    border-bottom: 1px solid  black;
 }
 nav li{
     margin-left: -20px;
     display: flex;
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    transition: .3s;
+    border-bottom: 0px solid rgb(25, 170, 175) ;
+}
+li a:hover{
+    border-bottom: 5px solid white;
 }
 /*///////parte del medio donde dice mi primera pagina web//*/
 section h1{
@@ -52,7 +63,7 @@ article{
 article div{
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 15px;
     align-items: center;
     text-align: center;
     color: white;
@@ -72,10 +83,17 @@ article h2{
     height: 100px;
     align-items: center;
     justify-content: center;
+    border-top: 1px solid black;
+}
+article div p{
+    line-height: 19px;
 }
 .html5{
     margin-top: -1px;
     background-color: rgb(26, 23, 23);
+}
+.html5 img{
+    margin-top: 40px;
 }
 .css{
     color: black;
@@ -85,7 +103,7 @@ article h2{
     background-color: rgb(26, 23, 23);
 }
 .javascript img{
-    margin-top: 5px;
+    margin-top: 40px;
 }
 /*///////////footer - parte de abajo de la pagina //////*/
 
@@ -133,10 +151,14 @@ footer small{
         width: 500px;
     }
     .css{
+        height: 500px;
         flex-direction: row-reverse;
     }
     .javascript p{
-        width: 500px;
+        width: 700px;
+    }
+    .javascript{
+        height: 1100px;
     }
     /*////footer parte de abajo//*/
     footer {
@@ -151,3 +173,5 @@ footer small{
 /*11/08/2022*/
 
 /*12/08/2022*/
+
+/*13/08/2022*/
