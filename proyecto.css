@@ -47,7 +47,6 @@ article{
     position: relative;
     top: 400px;
     z-index: 20;
-    height: 200vh;
     flex-direction:column;
     width: 100%;
 }
