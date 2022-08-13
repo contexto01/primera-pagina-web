@@ -48,7 +48,6 @@ article{
     top: 400px;
     z-index: 20;
     flex-direction:column;
-    width: 100%;
 }
 article div{
     display: flex;
@@ -95,6 +94,7 @@ footer {
     position: relative;
     background-color: black;
     z-index: 30;
+    width:100%;
     justify-content: center;
 }
 footer small{
