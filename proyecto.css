@@ -38,7 +38,7 @@ h1{
     top: 40px;
     object-fit:cover;
     width: 100%;
-    height: 50vh;
+    height: 60%;
     display: flex;
 }
 /*////////despues del la primera imagen*/
@@ -94,17 +94,17 @@ footer {
     position: relative;
     background-color: black;
     z-index: 30;
-    width:100%;
+    width: 100%;
     justify-content: center;
 }
 footer small{
-    height: 40px;
+    height: 60px;
     font-size: 12px;
     display: flex;
     color: white;
     align-items: flex-end;
 }
-/* parte de escritorio*/
+/* parte de escritorio 500px*/
 
 @media (min-width: 500px) {
     /*primer texto//////////*/
@@ -147,18 +147,19 @@ footer small{
         font-size: 15px;
     }
 }
-/*//////parte de tablet 1000px//*/
-@media (max-width: 1200px){
+/*//////parte de tablet 850px//*/
+@media (max-width: 950px){
     section h1{
         height: 50vh;
     }
     .imagen {
-        height: 70vh;
+        height: 60vh;
     }
     footer {
         height: 10vh;
     }
-
+}
 /*/////fin jaja///*/
 
 /*11/08/2022*/
+
