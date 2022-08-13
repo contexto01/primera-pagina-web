@@ -96,13 +96,12 @@ footer {
     z-index: 30;
     width: 100%;
     justify-content: center;
+    height: 51px;
+    align-items: center;
 }
 footer small{
-    height: 60px;
     font-size: 12px;
-    display: flex;
     color: white;
-    align-items: flex-end;
 }
 /* parte de escritorio 500px*/
 
@@ -141,7 +140,7 @@ footer small{
     }
     /*////footer parte de abajo//*/
     footer {
-        height: 15vh;
+        height: 100px;
     }
     footer small{
         font-size: 15px;
