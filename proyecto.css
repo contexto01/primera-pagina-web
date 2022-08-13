@@ -141,22 +141,23 @@ footer small{
     }
     /*////footer parte de abajo//*/
     footer {
-        height: 25vh;
-        align-items: flex-end;
+        height: 15vh;
     }
     footer small{
         font-size: 15px;
     }
 }
-/*//////parte de tablet 850px//*/
-@media (max-width: 950px){
+/*//////parte de tablet 1000px//*/
+@media (max-width: 1200px){
     section h1{
         height: 50vh;
     }
     .imagen {
         height: 70vh;
     }
-}
+    footer {
+        height: 10vh;
+    }
 
 /*/////fin jaja///*/
 
